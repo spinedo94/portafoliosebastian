@@ -1,0 +1,144 @@
+*{
+	box-sizing: 
+}
+
+
+.social-bar{
+position: fixed;
+right:0;
+top: 35%;
+font-size: 1.5rem;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+z-index: 100;
+}
+
+.icon{
+
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+}
+
+.icon-facebook{
+background:#2E406E;
+border-radius: 1rem 0 0 0;
+
+}
+
+
+
+.icon-instagram{
+background: #3F60A5 ;
+
+}
+
+
+.icon-pinterest{
+background:#CD2129;
+border-radius: 1rem 0 0 0;
+
+
+}
+
+
+.icon:hover{
+padding-right: 3rem;
+border-radius: 1rem 0 0 1rem;
+
+
+}
+
+
+
+.icon:last-child{
+  border-radius: 0 0 0 1rem;
+}
+
+.icon:hover{
+padding-right: 3rem;
+border-radius: 1rem 0 0 1rem;
+box-shadow: 0 0 .5rem rgba(0,0,0,0.42 )
+
+}
+body{
+
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  height: 100%;
+   }
+
+nav{
+  animation-play-state:all;
+  background: grey;
+  position: absolute;
+}
+
+
+
+
+
+
+   .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  width: 100%;
+  background-color:black;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  
+  padding: 0 4px;
+}
+  
+.column img {
+  margin: auto;
+  vertical-align: middle;
+  width: 60%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and  {
+  .column {
+    flex: 50%;
+    background-color: black;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+    background-color: black;
+  }
+}
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+  footer{
+
+  background-color: black;
+}
+
